@@ -1,1 +1,1 @@
-[List of media removal automation software for Saltbox and Radarr/Sonarr](media_removal_automation_software.md)
+- [List of media removal automation software](media_removal_automation_software.md) for Saltbox and Radarr/Sonarr
