@@ -1,1 +1,1 @@
-- [Rundown of available media removal automation projects](media_removal_automation_software.md) for Saltbox and Radarr/Sonarr
+- [Rundown of available media removal automation projects](media_removers.md) for Saltbox and Radarr/Sonarr
