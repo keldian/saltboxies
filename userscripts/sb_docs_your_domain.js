@@ -2,9 +2,8 @@
 // @name         SB Docs with Your Actual Domain
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Replace a specified substring with a user-defined base domain on URLs containing "saltbox"
-// @author       You
-// @include      *saltbox*
+// @description  Replace `_yourdomain.com_` with a user-defined base domain on "saltbox" URLs
+// @match        *://*saltbox*/*
 // @grant        GM_registerMenuCommand
 // ==/UserScript==
 
