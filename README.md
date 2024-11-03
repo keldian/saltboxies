@@ -10,6 +10,8 @@
 
 - Shell scripts
 
+[🔗](scripts/plex/unstick.sh) Plex: fix stuck recently added media
+
 - Python scripts
 
 - User Scripts
