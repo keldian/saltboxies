@@ -10,7 +10,7 @@
 
 - Shell scripts
 
-[🔗](scripts/plex/unstick.sh) Plex: fix stuck recently added media
+[🔗](scripts/plex/plex-fix-futures.sh) Plex: fix stuck recently added media
 
 - Python scripts
 
