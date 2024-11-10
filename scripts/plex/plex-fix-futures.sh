@@ -12,8 +12,8 @@
 #    - Non-Saltbox users or external access
 #    - Requires URL and token arguments
 #    - Processes single specified Plex instance
-#    - Example: `./plex-fix-futures.sh -u http://192.168.1.200:32400 -t YOUR_TOKEN`
-#    - Example: `./plex-fix-futures.sh -u https://plex.example.com -t YOUR_TOKEN`
+#    - Example: `./plex-fix-futures.sh -u http://192.168.1.200:32400 -t y0_uRt0k3nv4Lu3h-3R3`
+#    - Example: `./plex-fix-futures.sh -u https://plex.example.com -t y0_uRt0k3nv4Lu3h-3R3`
 
 declare -A PLEX_INSTANCES
 
@@ -121,9 +121,9 @@ else
     echo "  -t: Plex token"
     echo "  -u: Full Plex URL"
     echo "Examples:"
-    echo "  $0                              # Saltbox host"
-    echo "  $0 -u http://192.168.1.200:32400    # Private IP"
-    echo "  $0 -u https://plex.example.com      # Domain name"
+    echo "  $0                                                          # Saltbox host"
+    echo "  $0 -u http://192.168.1.200:32400 -t y0_uRt0k3nv4Lu3h-3R3    # Local network"
+    echo "  $0 -u https://plex.example.com -t y0_uRt0k3nv4Lu3h-3R3      # Domain name"
     exit 1
 fi
 
