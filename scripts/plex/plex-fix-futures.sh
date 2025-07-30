@@ -10,6 +10,13 @@
 #
 # 2. Single-instance mode:
 #    - Non-Saltbox users or external access
+#    - Must have the following packages installed:
+#        - curl
+#        - jq
+#        - awk
+#        - tr
+#        - date
+#        - grep
 #    - Requires URL and token arguments
 #    - Processes single specified Plex instance
 #    - Example: `./plex-fix-futures.sh -u http://192.168.1.200:32400 -t y0_uRt0k3nv4Lu3h-3R3`
